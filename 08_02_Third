@@ -1,10 +1,10 @@
 #include <stdio.h>
 
-int main()
+int main(void)
 {
 	int x, n, a, b;
 	int total = 0;
-	
+
 	scanf("%d\n", &x);
 	scanf("%d\n", &n);
 
@@ -14,11 +14,11 @@ int main()
 	}
 
 	if (x == total) {
-    printf("Yes");
-}
+		printf("Yes");
+	}
 	else {
-    printf("No");
-}
+		printf("No");
+	}
 
 	return 0;
 }
